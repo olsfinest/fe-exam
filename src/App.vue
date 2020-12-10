@@ -1,9 +1,7 @@
 <template>
   <div id="app">
 
-
     <Header />
-
 
     <b-container class="header-bottom" fluid="sm">
         <b-row>
@@ -58,7 +56,7 @@
                   elemetu  Etiam erat nunc, vene natis quis ultrices vulpu tate, iaculis 
                   ac odio. Nul lam non laoreet sapien Mo<br>
                   bi adipiscing, lacus non tempus port acl ligula tellus pulvinar neque, a sodales ligula nisl eget.
-                  <div style="padding-top:12px;"><img src="./assets/images/bullet.png" height="9" width="7"><a href="#" class="navbar5">Visit Casino</a> <img src="./assets/images/bullet.png" height="9" width="7">&nbsp;&nbsp;<a href="#" class="navbar5">Full Review</a></div>
+                  <div style="padding-top:12px;"><img class="star" src="./assets/images/bullet.png" height="9" width="7"><a href="#" class="navbar5">Visit Casino</a> <img class="star" src="./assets/images/bullet.png" height="9" width="7">&nbsp;&nbsp;<a href="#" class="navbar5">Full Review</a></div>
                </b-col>
               </b-row>
 
@@ -69,7 +67,7 @@
              <b-container fluid="sm" class="gallery-content">
               <b-row>
                <b-col sm="3">
-                   <img src="./assets/images/pic.jpg" alt="welcome" title="welcome" />
+                   <img  src="./assets/images/pic.jpg" alt="welcome" title="welcome" />
                </b-col>
                 <b-col sm="9">
                   <strong>Lorem ipsum dolor</strong>
@@ -77,7 +75,7 @@
                   elemetu  Etiam erat nunc, vene natis quis ultrices vulpu tate, iaculis 
                   ac odio. Nul lam non laoreet sapien Mo<br>
                   bi adipiscing, lacus non tempus port acl ligula tellus pulvinar neque, a sodales ligula nisl eget.
-                  <div style="padding-top:12px;"><img src="./assets/images/bullet.png" height="9" width="7"><a href="#" class="navbar5">Visit Casino</a> <img src="./assets/images/bullet.png" height="9" width="7">&nbsp;&nbsp;<a href="#" class="navbar5">Full Review</a></div>
+                  <div style="padding-top:12px;"><img class="star" src="./assets/images/bullet.png" height="9" width="7"><a href="#" class="navbar5">Visit Casino</a> <img class="star" src="./assets/images/bullet.png" height="9" width="7">&nbsp;&nbsp;<a href="#" class="navbar5">Full Review</a></div>
                </b-col>
               </b-row>
 
@@ -88,7 +86,7 @@
              <b-container fluid="sm" class="gallery-content">
               <b-row>
                <b-col sm="3">
-                   <img src="./assets/images/pic.jpg" alt="welcome" title="welcome" />
+                   <img class="star" src="./assets/images/pic.jpg" alt="welcome" title="welcome" />
                </b-col>
                 <b-col sm="9">
                   <strong>Lorem ipsum dolor</strong>
@@ -96,7 +94,7 @@
                   elemetu  Etiam erat nunc, vene natis quis ultrices vulpu tate, iaculis 
                   ac odio. Nul lam non laoreet sapien Mo<br>
                   bi adipiscing, lacus non tempus port acl ligula tellus pulvinar neque, a sodales ligula nisl eget.
-                  <div style="padding-top:12px;"><img src="./assets/images/bullet.png" height="9" width="7"><a href="#" class="navbar5">Visit Casino</a> <img src="./assets/images/bullet.png" height="9" width="7">&nbsp;&nbsp;<a href="#" class="navbar5">Full Review</a></div>
+                  <div style="padding-top:12px;"><img class="star" src="./assets/images/bullet.png" height="9" width="7"><a href="#" class="navbar5">Visit Casino</a> <img class="star" src="./assets/images/bullet.png" height="9" width="7">&nbsp;&nbsp;<a href="#" class="navbar5">Full Review</a></div>
                </b-col>
               </b-row>
 
@@ -107,7 +105,7 @@
              <b-container fluid="sm" class="gallery-content">
               <b-row>
                <b-col sm="3">
-                   <img src="./assets/images/pic.jpg" alt="welcome" title="welcome" />
+                   <img class="star" src="./assets/images/pic.jpg" alt="welcome" title="welcome" />
                </b-col>
                 <b-col sm="9">
                   <strong>Lorem ipsum dolor</strong>
@@ -115,7 +113,7 @@
                   elemetu  Etiam erat nunc, vene natis quis ultrices vulpu tate, iaculis 
                   ac odio. Nul lam non laoreet sapien Mo<br>
                   bi adipiscing, lacus non tempus port acl ligula tellus pulvinar neque, a sodales ligula nisl eget.
-                  <div style="padding-top:12px;"><img src="./assets/images/bullet.png" height="9" width="7"><a href="#" class="navbar5">Visit Casino</a> <img src="./assets/images/bullet.png" height="9" width="7">&nbsp;&nbsp;<a href="#" class="navbar5">Full Review</a></div>
+                  <div style="padding-top:12px;"><img class="star" src="./assets/images/bullet.png" height="9" width="7"><a href="#" class="navbar5">Visit Casino</a> <img class="star" src="./assets/images/bullet.png" height="9" width="7">&nbsp;&nbsp;<a href="#" class="navbar5">Full Review</a></div>
                </b-col>
               </b-row>
 
@@ -137,7 +135,7 @@
                <b-col sm="6" class="video-div">
 
                   <h3><span class="style5">Featured Poker Video</span></h3>
-                  <img src="./assets/images/video.jpg" alt="video" title="video" />
+                  <img class="star" src="./assets/images/video.jpg" alt="video" title="video" />
                   <br/>
                   <img src="./assets/images/bullet.png" height="9" width="7">&nbsp;&nbsp;&nbsp;<a href="#" class="navbar5">Featured Poker Video</a>
                   
@@ -151,7 +149,7 @@
                       
                     <b-row>
                     <b-col sm="4">
-                        <img src="./assets/images/small-pic.jpg" alt="welcome" title="welcome" />
+                        <img class="star" src="./assets/images/small-pic.jpg" alt="welcome" title="welcome" />
                     </b-col>
                       <b-col sm="8">
                         <span class="style7">Casino Name</span>
@@ -165,7 +163,7 @@
                       
                     <b-row>
                     <b-col sm="4">
-                        <img src="./assets/images/small-pic.jpg" alt="welcome" title="welcome" />
+                        <img class="star" src="./assets/images/small-pic.jpg" alt="welcome" title="welcome" />
                     </b-col>
                       <b-col sm="8">
                         <span class="style7">Casino Name</span>
@@ -179,7 +177,7 @@
                       
                     <b-row>
                     <b-col sm="4">
-                        <img src="./assets/images/small-pic.jpg" alt="welcome" title="welcome" />
+                        <img class="star" src="./assets/images/small-pic.jpg" alt="welcome" title="welcome" />
                     </b-col>
                       <b-col sm="8">
                         <span class="style7">Casino Name</span>
@@ -307,7 +305,15 @@ h2.head {
 
 .border-bottom9 {
    border-bottom:1px solid #212121;
-     margin-bottom: 10px;
+   margin-bottom: 10px;
+}
+
+.gallery-content img {
+  margin-bottom: 10px;
+}
+
+.star {
+  margin-top:6px;
 }
 
 </style>

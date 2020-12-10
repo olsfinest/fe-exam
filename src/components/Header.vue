@@ -27,13 +27,20 @@
                   <b-nav-item href="#">Link</b-nav-item>
                   <b-nav-item href="#">Link</b-nav-item>
                   <b-nav-item href="#">Link</b-nav-item>
-                  <b-nav-item href="#">Link</b-nav-item>
+                  <b-nav-item v-b-modal.modal-1 href="#">Login</b-nav-item>
                 </b-navbar-nav>
               </b-collapse>
             </b-navbar>
         </b-col>
        </b-row>
     </b-container>
+
+    <div>
+
+    <Login />
+
+    
+</div>
 
 
     <b-container class="header-bottom" fluid="sm">
@@ -107,17 +114,23 @@
 
   </div>
 
-
-
 </template>
 
 <script>
+
+import Login from './Login.vue'
+
 export default {
   name: 'Header',
   props: {
     msg: String
+  } , 
+  components: {
+    Login
   }
 }
+
+
 </script>
 
 <style lang="scss">
@@ -224,6 +237,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+
+  .video-div {
+    margin-bottom: 30px;
+  }
 
   .navbar-nav .nav-item {
     padding:0;
