@@ -3,11 +3,11 @@ import App from './App.vue';
 import VueRouter from 'vue-router';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 import Aboutus from './Aboutus.vue';
-import Home from './App.vue';
 import Aboutme from './Aboutme.vue';
 import Ourteam from './Ourteam.vue';
 import Porfolio from './Porfolio.vue';
 import Work from './Work.vue';
+import Home from './Home.vue';
 
 
 Vue.use(VueRouter);
@@ -19,6 +19,7 @@ const routes = [
     { path: '/porfolio' , component: Porfolio,  },
     { path: '/work' , component: Work,  },
     { path: '/' , component: Home,  },
+  
 ];
 
 const router = new VueRouter({

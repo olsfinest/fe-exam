@@ -1,6 +1,6 @@
 <template>
 
-    <b-col sm="3" class="pull-right">
+    <b-col sm="3" class="pull-right none">
         <h2 class="title">CASINO REVIEWS</h2>
         <ul class="sidebar-link">
             <li><a href="#" class="navbar3">Any Casino Poker Link</a></li>
@@ -86,4 +86,10 @@ export default {
         padding:0;
     }
 
+    @media screen and (max-width: 766px) {
+       .none {
+            display:none!important;
+        }
+    }
+  
 </style>

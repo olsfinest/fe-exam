@@ -273,8 +273,12 @@ body {
 
 }
 
-div#modal-1___BV_modal_outer_:last-child   {
-  display:none!important;
+a:hover {
+  text-decoration:none!important;
+}
+
+.router-link-exact-active {
+  color:black!important;
 }
 
 </style>
