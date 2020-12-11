@@ -8,7 +8,7 @@
          
           <Sidebar />
 
-          <b-col sm="9" class="offset">
+          <b-col sm="9" class="offset pull-left">
 
              <b-container class="content-top" fluid="sm">
               <b-row>
@@ -315,5 +315,15 @@ h2.head {
 .star {
   margin-top:6px;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .content-top {
+    padding-bottom:10px;
+  }
+  
+
+}
+
 
 </style>

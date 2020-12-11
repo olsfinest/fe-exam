@@ -1,6 +1,6 @@
 <template>
 
-    <b-col sm="3">
+    <b-col sm="3" class="pull-right">
         <h2 class="title">CASINO REVIEWS</h2>
         <ul class="sidebar-link">
             <li><a href="#" class="navbar3">Any Casino Poker Link</a></li>
