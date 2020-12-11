@@ -237,6 +237,9 @@ body {
 }
 
 .nav-item a { color:white; font-size:12px;}
+.nav-item a:hover {
+  color:black!important;
+}
 
 @media only screen and (max-width: 600px) {
 
