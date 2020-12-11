@@ -76,7 +76,7 @@ export default {
         list-style: none;
         border-bottom: 1px solid #212121;
         padding-bottom: 5px;
-        background: url(/img/arrow.064d8624.jpg) no-repeat;
+        background: url(../assets/images/arrow.jpg) no-repeat;
         background-position: 11px center;
         padding-left: 40px;
         padding-right: 20px;
