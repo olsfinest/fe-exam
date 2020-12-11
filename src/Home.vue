@@ -1,8 +1,6 @@
 <template>
   <div id="app">
 
-    <router-view></router-view>
-
     <Header />
 
     <b-container class="header-bottom" fluid="sm">

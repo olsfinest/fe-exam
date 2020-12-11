@@ -1,16 +1,13 @@
 <template>
   <div id="login">
 
+      
     <b-modal id="modal-1" title="Login">
 
         <b-form-input type="text" v-model="text" placeholder="Enter your email"></b-form-input><br/>
-
         <b-form-input type="password" v-model="password" placeholder="Enter your password"></b-form-input><br/>
-
         <b-button variant="outline-primary" v-on:click="login">Login</b-button>
-
         <br/>
-
         <p id="text-report"></p>
         
     </b-modal>
@@ -148,5 +145,6 @@ export default {
 .close {
     color: white!important;
 }
+
 
 </style>

@@ -21,13 +21,13 @@
 
               <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav>
-                  <b-nav-item href="#">Link</b-nav-item>
-                  <b-nav-item href="#">Link</b-nav-item>
-                  <b-nav-item href="#">Link</b-nav-item>
-                  <b-nav-item href="#">Link</b-nav-item>
-                  <b-nav-item href="#">Link</b-nav-item>
-                  <b-nav-item href="#">Link</b-nav-item>
-                  <b-nav-item v-b-modal.modal-1 href="#">Login</b-nav-item>
+                  <li class="nav-item"><router-link to="/">Home</router-link></li>
+                  <li class="nav-item"><router-link to="/aboutus">About Us</router-link></li>
+                  <li class="nav-item"><router-link to="/ourteam">Our Team</router-link></li>
+                  <li class="nav-item"><router-link to="/porfolio">Porfolio</router-link></li>  
+                  <li class="nav-item"><router-link to="/work">Work</router-link></li>
+                  <li class="nav-item"><router-link to="/aboutme">About Me</router-link></li>
+                  <li class="nav-item"><a v-b-modal.modal-1 href="#">Login</a></li>
                 </b-navbar-nav>
               </b-collapse>
             </b-navbar>
@@ -180,9 +180,9 @@ body {
 }
 
 .navbar-nav .nav-item  {
-  border-right:1px solid white;
-  padding-left:47px;
-  padding-right:47px;
+     border-right: 1px solid white;
+    padding-left: 44px;
+    padding-right: 44px;
 }
 
 .navbar-nav .nav-item:last-child {
@@ -236,6 +236,8 @@ body {
   padding-bottom:20px;
 }
 
+.nav-item a { color:white; font-size:12px;}
+
 @media only screen and (max-width: 600px) {
 
   .video-div {
@@ -270,4 +272,9 @@ body {
   }
 
 }
+
+div#modal-1___BV_modal_outer_:last-child   {
+  display:none!important;
+}
+
 </style>
