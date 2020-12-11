@@ -10,7 +10,7 @@
         <b-button variant="outline-primary" v-on:click="login">Login</b-button>
 
         <br/>
-        
+
         <p style="color:red; padding-top:10px;" id="text-report"></p>
         
     </b-modal>
@@ -56,7 +56,7 @@ export default {
 
             .catch(function(error) {
 
-                console.log(error);
+                document.getElementById("text-report").innerHTML = error;
 
             });
 
