@@ -42,10 +42,10 @@ export default {
         urlencoded.append("password", this.password);
 
         var requestOptions = {
-        method: 'POST',
-        headers: myHeaders,
-        body: urlencoded,
-        redirect: 'follow'
+            method: 'POST',
+            headers: myHeaders,
+            body: urlencoded,
+            redirect: 'follow'
         };
         
         
@@ -57,11 +57,8 @@ export default {
             function(data) {
 
                 var i;
-
                 var string_data = "";
-
                 var error_data;
-                
                 var token;
                 
                 for (i = 0; i < data.length; i++) {
@@ -99,6 +96,7 @@ export default {
             }
 
         )
+        
         .catch(function(error) {
 
                 document.getElementById("text-report").innerHTML = error;
